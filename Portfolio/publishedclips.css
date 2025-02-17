@@ -1,0 +1,25 @@
+/*desktop*/
+#content {
+    width: 75%;
+    margin: auto;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: monospace;
+}
+
+h1 {
+    font-size: 2em;
+    color: #000000;
+    font-family: monospace;
+    text-decoration: underline wavy;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #000000;
+    font-family: monospace;
+    text-decoration: none;
+}

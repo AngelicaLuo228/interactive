@@ -1,0 +1,75 @@
+/*desktop*/
+#content {
+    width: 50%;
+    margin: auto;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #c1cdff;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: monospace;
+}
+
+body {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #c1cdff;
+    text-align: auto;
+  }
+
+.img-container {
+    width: 100%;
+  }
+  
+  img {
+    margin: auto;
+    display: block;
+  }
+
+h1 {
+    font-size: 2em;
+    color: #000000;
+    font-family: monospace;
+    text-decoration: underline wavy;
+}
+
+p {
+    font-size: 0.8em;
+    color: #000000;
+    font-family: monospace;
+    line-height: 1.5em;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: row; 
+}
+
+.nav-button {
+    font-size: 0.75em;
+    line-height: 1.7em;
+    margin: 0px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #3f5898;
+    color: white;
+    border-radius: 0px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-button a {
+    color: white;
+    text-decoration: none;
+}
+
+/*phone*/
+@media (orientation: portrait) {
+    #content {
+        width: 100%;}
+    }
