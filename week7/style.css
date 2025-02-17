@@ -1,0 +1,37 @@
+/*desktop*/
+#content {
+    width: 50%;
+    margin: auto;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: monospace;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: row; 
+}
+
+.nav-button {
+    margin: auto;
+    padding: 10px;
+    background-color: #3f5898;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-button a {
+    color: white;
+    text-decoration: none;
+}
+
+/*phone*/
+@media (orientation: portrait) {
+    #content {width: 100%;}
+}
