@@ -1,12 +1,8 @@
 /*desktop*/
 #content {
-    width: 50%;
-    margin: auto;
+    width: auto;
     line-height: 1.5em;
     font-size: 1.5em;
-    padding-left: 10%;
-    padding-right: 10%;
-    background-color: #c1cdff;
     padding: 20px;
     border-radius: 5px;
     font-family: monospace;
@@ -26,13 +22,19 @@ body {
   img {
     margin: auto;
     display: block;
+    padding-top: 50px;
   }
 
 h1 {
+    padding-top: 50px;
     font-size: 2em;
     color: #000000;
     font-family: monospace;
-    text-decoration: underline wavy;
+    text-decoration: none;
+}
+
+h3 {
+    padding-top: 50px;
 }
 
 p {
@@ -49,10 +51,10 @@ p {
 
 .nav-button {
     font-size: 0.75em;
-    line-height: 1.7em;
-    margin: 0px;
-    padding-right: 50px;
-    padding-left: 50px;
+    line-height: 2em;
+    margin: 0.3px;
+    padding-right: 20px;
+    padding-left: 20px;
     padding-top: 0px;
     padding-bottom: 0px;
     background-color: #3f5898;

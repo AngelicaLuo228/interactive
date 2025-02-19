@@ -1,16 +1,13 @@
-/*desktop*/
-#content {
-    width: 75%;
-    margin: auto;
-    line-height: 1.5em;
-    font-size: 1.5em;
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 5px;
-    font-family: monospace;
-}
+body {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #c1cdff;
+    text-align: auto;
+  }
 
 h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
     font-size: 2em;
     color: #000000;
     font-family: monospace;
