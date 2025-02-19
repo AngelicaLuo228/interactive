@@ -1,7 +1,7 @@
 body {
     padding-left: 10%;
     padding-right: 10%;
-    background-color: #c1cdff;
+    background-color: #d3dcff;
     text-align: auto;
   }
 
@@ -16,7 +16,22 @@ h1 {
 
 h2 {
     font-size: 1.5em;
-    color: #000000;
+    color: #ffffff;
     font-family: monospace;
     text-decoration: none;
 }
+
+h2 a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+<style>
+  .home-button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url('home.png') no-repeat center center;
+    background-size: contain;
+  }
+</style>
