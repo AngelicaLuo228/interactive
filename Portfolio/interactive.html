@@ -1,10 +1,50 @@
 <head>
   <link href="interactive.css" rel="stylesheet" type="text/css">
+  <style>
+    .flourish-container {
+        display: flex;
+        justify-content: space-around; /* Space out the visualizations */
+        gap: 20px; /* Space between visualizations */
+        flex-wrap: wrap; /* Ensures responsiveness */
+    }
+    .flourish-embed {
+        flex: 1;
+        min-width: 45%; /* Ensures both maps fit side by side */
+    }
+  </style>
 </head>
 
 <a href="index.html">
-    <img src="home.png" alt="Home" width="25" style="padding-top: 30px;">
-  </a>
+    <img src="home.png" alt="Home" width="25" style="padding-top: 30px; padding-bottom: 50px;">
+</a>
+
+<h1>Cafés and Cha-Ching Communities</h1>
+<h2>Chicago wards observe a strong correlation between family income and sidewalk cafe permits issued</h2>
+<h3>March 2, 2025</h3>
+<h3>By Angelica Zhiyu Luo</h3>
+
+
+<p> TK tk TK tk lede</p>
+
+<p> TK tk TK tk nutgraf</p>
+
+
+<!-- Flex container for the visualizations -->
+<div class="flourish-container">
+    <div class="flourish-embed flourish-map" data-src="visualisation/21890304">
+        <script src="https://public.flourish.studio/resources/embed.js"></script>
+        <noscript>
+            <img src="https://public.flourish.studio/visualisation/21890304/thumbnail" width="100%" alt="map visualization" />
+        </noscript>
+    </div>
+
+    <div class="flourish-embed flourish-map" data-src="visualisation/21891066">
+        <script src="https://public.flourish.studio/resources/embed.js"></script>
+        <noscript>
+            <img src="https://public.flourish.studio/visualisation/21891066/thumbnail" width="100%" alt="map visualization" />
+        </noscript>
+    </div>
+</div>
 
 <body>
     <div id="content">

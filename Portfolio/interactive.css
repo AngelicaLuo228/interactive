@@ -4,44 +4,50 @@
 body {
     padding-left: 20%;
     padding-right: 20%;
-    background-color: #d1d9fa;    
+    background-color: #ffffff;    
     text-align: auto;
   }
 
-p {
+  p {
     font-size: 1em;
     color: #000000;
-    font-family: 'Noto Serif SC', serif;    
+    font-family: 'Space Mono', monospace;
     text-decoration: none;
 }
 
 h1 {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    font-size: 2em;
+    font-size: 4.25em;
+    line-height: 1em;
     color: #000000;
-    font-family: monospace;
-    text-decoration: underline wavy;
+    font-family: 'Chivo', sans-serif;
+    font-weight: 800; /* ExtraBold */
+    font-style: italic;
 }
 
 h2 {
-    font-size: 1.5em;
-    color: #ffffff;
-    font-family: monospace;
+    font-size: 1.25em;
+    line-height: 1em;
+    text-align: right;
+    font-family: 'Space Mono', monospace;
+    color:rgb(91, 91, 91);
     text-decoration: none;
+    font-weight: 800; /* ExtraBold */
+    padding-left: 30%;
 }
 
-h2 a {
-    color: #000000;
-    text-decoration: underline;
-}
+h3 {
+    font-size: 1.25em;
+    line-height: 0.5em;
+    text-align: right;
+    color:rgb(160, 160, 160);
+    font-family: 'Space Mono', monospace;
+    text-decoration: none}
 
-<style>
-  .home-button {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    background: url('home.png') no-repeat center center;
-    background-size: contain;
-  }
-  </style>
+
+.home-button {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url('home.png') no-repeat center center;
+  background-size: contain;
+}

@@ -1,33 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Chewy&family=Fredoka:wght@300;400;700&family=Luckiest+Guy&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 
 body {
     padding-left: 20%;
     padding-right: 20%;
-    background: linear-gradient(to right, rgb(255, 184, 184), rgb(96, 96, 220));
+    background-color: #ffffff;
     text-align: auto;
   }
 
 p {
     font-size: 1em;
     color: #000000;
-    font-family: 'Noto Serif SC', serif;    
+    font-family: 'Space Mono', monospace;
     text-decoration: none;
 }
 
 h1 {
     padding-top: 50px;
     padding-bottom: 50px;
-    font-size: 2em;
+    font-size: 3.5em;
     color: #000000;
-    font-family: monospace;
+    font-family: 'Chivo', sans-serif;
+    font-weight: 800; /* ExtraBold */
+    font-style: italic;
     text-decoration: underline wavy;
 }
 
 h2 {
-    font-size: 1.5em;
-    color: #ffffff;
-    font-family: monospace;
+    font-size: 1.35em;
+    color: #000000;
+    font-family: 'Space Mono', monospace;
     text-decoration: none;
 }
 
@@ -36,12 +38,18 @@ h2 a {
     text-decoration: underline;
 }
 
-<style>
-  .home-button {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    background: url('home.png') no-repeat center center;
-    background-size: contain;
-  }
-</style>
+.home-button {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url('home.png') no-repeat center center;
+  background-size: contain;
+}
+
+hr {
+  height: 3px;
+  background: linear-gradient(to right, rgb(255, 184, 184), rgb(96, 96, 220));
+  border: 1px;
+  border-radius: 5px;
+  margin: 50px;
+}
