@@ -13,7 +13,7 @@
 
 hr {
     height: 5px;
-    background: linear-gradient(to right, rgb(255, 184, 184), rgb(96, 96, 220));
+    background: linear-gradient(to right, #ffeda8, #4E6813);
     border: 5px;
     border-radius: 5px;
     margin: 40px;
@@ -31,8 +31,7 @@ iframe {
 body {
     padding-left: 15%;
     padding-right: 15%;
-    background-color: #ffffff;    
-
+    background-color: white;    
     text-align: auto;
   }
 
@@ -104,26 +103,27 @@ p {
 #nav-bar {
     display: flex;
     flex-direction: row; 
-    background: linear-gradient(to right, rgb(255, 184, 184), rgb(96, 96, 220));
+    background: linear-gradient(to right, #4E6813, #ffeda8, #b0a6df);    
+    justify-content: space-evenly;
 }
 
 .nav-button {
-    font-size: 0.65em;
-    text-decoration: underline;
+    font-size: 0.75em;
+    text-decoration: wavy underline;
     line-height: 2em;
     margin: 0.3px;
     padding-right: 20px;
     padding-left: 20px;
     padding-top: 0px;
     padding-bottom: 0px;
-    color: white;
+    color: black;
     border-radius: 0px;
     cursor: pointer;
     text-align: center;
 }
 
 .nav-button a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 

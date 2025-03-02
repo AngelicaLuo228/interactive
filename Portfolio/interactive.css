@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Chewy&family=Fredoka:wght@300;400;700&family=Luckiest+Guy&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 
 body {
     padding-left: 20%;
@@ -9,8 +9,7 @@ body {
   }
 
   p {
-    font-size: 1em;
-    color: #000000;
+    font-size: 1.00em;
     font-family: 'Space Mono', monospace;
     text-decoration: none;
 }
@@ -42,6 +41,11 @@ h3 {
     color:rgb(160, 160, 160);
     font-family: 'Space Mono', monospace;
     text-decoration: none}
+
+.flourish-container {
+    outline: 3px solid #ffeda8;
+    padding: 15px;
+    }
 
 
 .home-button {
