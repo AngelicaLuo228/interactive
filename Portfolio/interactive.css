@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 
+/*desktop*/
+
 body {
     padding-left: 20%;
     padding-right: 20%;
@@ -54,4 +56,56 @@ h3 {
   height: 50px;
   background: url('home.png') no-repeat center center;
   background-size: contain;
+}
+
+/* Phone */
+@media screen and (max-width: 768px) {
+
+    body {
+        margin: 2px;
+    }
+
+    #content {
+        width: 100%;
+        font-size: 1.2em;
+        padding: 0;
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+        text-align: left;}
+    h2 {
+        font-size: 2em;
+        text-align: right;}
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 0.7em;
+        margin-bottom: 20%;
+        padding: 0.1px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 300px;
+        display: block;
+    }
+
+    .img-container {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    img {
+        max-width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: auto;
+    }
+
 }
