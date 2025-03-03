@@ -191,5 +191,6 @@ p {
         padding: 2px;
         text-align: left;
         line-height: normal;
+        text-decoration: wavy underline;
     }
 }
