@@ -103,12 +103,14 @@ p {
 #nav-bar {
     display: flex;
     flex-direction: row; 
-    background: linear-gradient(to right, #4E6813, #ffeda8, #b0a6df);    
-    justify-content: space-evenly;
-}
+    background: linear-gradient(to right, #4E6813, #ffeda8, #b0a6df);
+    justify-content: space-evenly;}
 
 .nav-button {
     font-size: 0.75em;
+    border-radius: 0px;
+    cursor: pointer;
+    text-align: center;
     text-decoration: wavy underline;
     line-height: 2em;
     margin: 0.3px;
@@ -117,9 +119,6 @@ p {
     padding-top: 0px;
     padding-bottom: 0px;
     color: black;
-    border-radius: 0px;
-    cursor: pointer;
-    text-align: center;
 }
 
 .nav-button a {
