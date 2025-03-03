@@ -44,6 +44,14 @@ h3 {
     font-family: 'Space Mono', monospace;
     text-decoration: none}
 
+h4 {
+    font-size: 1em;
+    line-height: 0.5em;
+    color: rgb(175, 175, 175);
+    text-align: center;
+    font-family: monospace;
+}
+
 .flourish-container {
     outline: 3px solid #ffeda8;
     padding: 15px;
