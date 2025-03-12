@@ -11,6 +11,16 @@ hr {
     margin-left: 70px;
 }
 
+a {
+    color: #6ca9f8; 
+    text-decoration: underline; 
+    font-weight: bold;
+}
+
+a:visited {
+    color: #606f3b;
+}
+
 iframe {
     border: white;
     border-radius: 5px;
@@ -114,62 +124,45 @@ p {
     text-decoration: none;
 }
 
-/*mobile*/
-@media screen and (max-width: 480px) {
+/* Responsive Design for Portrait */
+@media (orientation: portrait) {
+    body {
+        padding-left: 5%;
+        padding-right: 5%;
+        background-color: white;    
+        text-align: auto;
+    }
+
+    h4 {
+        line-height: 1em;
+        color: #606f3b;}
 
     #content {
-        width: 100%;
-        font-size: 1.2em;
-        padding: 0;
+      width: 100%;
+      font-size: 1.5em;} 
+    
+        .flourish-embed {
+            width: 100vw;
+            min-height: 80vh; /* Ensures enough space but doesn't force full overlap */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px; /* Adds space between embeds */
+        }
+    
+        .flourish-embed.flourish-quiz,
+        .flourish-embed.flourish-cards {
+            width: 100vw;
+            min-height: 80vh;
+            margin-bottom: 20px; /* Space between elements */
+            align-items: center;
+        }
+    
+        iframe {
+            width: 100vw;
+            border-radius: 0;
+            align-items: center;
+        }
     }
 
-    h1 {
-        font-size: 2em;
-        text-align: left;}
-    h2 {
-        font-size: 2em;
-        text-align: right;}
-
-    h3 {
-        font-size: 1.5em;
-    }
-
-    p {
-        font-size: 0.7em;
-        margin-bottom: 10%;
-        padding: 0.1px;
-    }
-
-    iframe {
-        width: 100%;
-        height: 300px;
-        display: block;
-    }
-
-    .img-container {
-        width: 100%;
-        padding: 10px;
-        text-align: center;
-    }
-
-    img {
-        max-width: 100%;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        height: auto;
-    }
-
-    #nav-bar {
-        flex-direction: column;
-        align-items: left;
-        margin-right: 60px;
-    }
-
-    .nav-button {
-        font-size: 0.75em;
-        padding: 2px;
-        text-align: left;
-        line-height: normal;
-        text-decoration: wavy underline;
-    }
-}
+  
