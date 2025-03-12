@@ -127,10 +127,11 @@ p {
 /* Responsive Design for Portrait */
 @media (orientation: portrait) {
     body {
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 0%;
+        padding-right: 0%;
         background-color: white;    
         text-align: auto;
+        line-height: 2em;
     }
 
     h4 {
@@ -150,14 +151,20 @@ p {
             margin-bottom: 20px; /* Adds space between embeds */
         }
     
-        .flourish-embed.flourish-quiz,
-        .flourish-embed.flourish-cards {
+        .flourish-embed.flourish-quiz {
             width: 100vw;
             min-height: 80vh;
             margin-bottom: 20px; /* Space between elements */
             align-items: center;
         }
     
+        .flourish-embed.flourish-cards {
+            width: 100%;
+            min-height: 600px;
+            padding-top: 50px;
+            align-items: center;
+        }
+
         iframe {
             width: 100vw;
             border-radius: 0;
